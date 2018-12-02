@@ -163,6 +163,7 @@ a {
           align-items: center; }
 
 .section-text {
+  padding: 6px;
   width: 40%; }
 
 .skill-title {
