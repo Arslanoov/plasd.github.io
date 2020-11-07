@@ -282,7 +282,8 @@ body {
 .third-section {
   font-family: 'Montserrat';
   color: #232323;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 90px;
   background-color: #f5f6f8; }
   .third-section__title {
     text-align: center;
@@ -548,9 +549,16 @@ body {
     .seventh-section__box:hover .seventh-section__box-description {
       color: white; }
     .seventh-section__box:hover .seventh-section__box-start {
+      border: 0;
+      outline: 0;
       background-color: #26e6e6; }
     .seventh-section__box-start:hover {
       cursor: pointer;
+      border: 0;
+    }
+    .seventh-section__box-start:active {
+      outline: 0;
+      border: 0;
     }
     .seventh-section__box-rate {
       margin-bottom: 35px;
