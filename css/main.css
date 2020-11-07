@@ -556,6 +556,10 @@ body {
       cursor: pointer;
       border: 0;
     }
+    .seventh-section__box-start:focus {
+      outline: 0;
+      border: 0;
+    }
     .seventh-section__box-start:active {
       outline: 0;
       border: 0;
@@ -1088,6 +1092,8 @@ body {
     padding: 2px; }
     .second-section__button {
       min-width: 60%; }
+  .second-section__button:hover {
+    cursor: pointer; }
   .third-section {
     margin-top: 30px; }
     .third-section__title-main {
